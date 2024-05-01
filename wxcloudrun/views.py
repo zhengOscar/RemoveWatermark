@@ -5,6 +5,7 @@ from wxcloudrun.dao import delete_counterbyid, query_counterbyid, insert_counter
 from wxcloudrun.model import Counters
 from wxcloudrun.response import make_succ_empty_response, make_succ_response, make_err_response
 
+from wxcloudrun.platforms import douyin
 
 @app.route('/')
 def index():
@@ -64,3 +65,19 @@ def get_count():
     """
     counter = Counters.query.filter(Counters.id == 1).first()
     return make_succ_response(0) if counter is None else make_succ_response(counter.count)
+    
+    
+@app.route("/api/nocode", methods=['POST'])
+def remove_watermark():
+    # 获取请求体参数
+    params = request.get_json()
+
+    # 检查url参数
+    if 'url' not in params:
+        return make_err_response('缺少url参数')
+
+    url = params['url']
+    res = douyin.downLoad(url);
+    print(res)
+    
+    return content;
