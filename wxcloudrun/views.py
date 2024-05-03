@@ -78,6 +78,4 @@ def remove_watermark():
 
     url = params['url']
     res = douyin.downLoad(url);
-    data ={'data':res}
-    
-    return make_succ_response(data)
+    return make_succ_response(res)
