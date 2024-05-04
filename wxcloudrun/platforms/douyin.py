@@ -17,7 +17,7 @@ def downLoad(url):
     
     vid=re.findall('https://www.douyin.com/video/(\w+)\?previous_page=app_code_link',redirectUrl)[0]
     redirectUrl=f'https://m.douyin.com/share/video/{vid}'
-    print(redirectUrl)
+    #print(redirectUrl)
     resp = requests.get(url=redirectUrl, headers=headers)
      
     # 正则抓视频信息
@@ -26,10 +26,10 @@ def downLoad(url):
      
     # url解码
     html_data = urllib.parse.unquote(info)
-    with open('b.txt', 'w',encoding='utf-8') as file:
-        file.write(html_data)
+    #with open('b.txt', 'w',encoding='utf-8') as file:
+    #    file.write(html_data)
     html_data = json.loads(html_data)
     video_url = html_data['app']['videoInfoRes']['item_list'][0]['video']['play_addr']['url_list'][0]
     video_url = video_url.replace("playwm","play")
-    print(video_url)
+    #print(video_url)
     return video_url
