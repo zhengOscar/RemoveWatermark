@@ -39,6 +39,7 @@ def download(url):
     if resp.status_code==301 or resp.status_code==302 :
         video_url = resp.headers['Location']
     
+    print(video_url)
     #统一视频域名
     pattern = r"^https://([^.]+)\.douyinvod\.com"
     match = re.match(pattern, video_url)
