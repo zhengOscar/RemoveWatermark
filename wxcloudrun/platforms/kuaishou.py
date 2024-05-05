@@ -7,29 +7,33 @@ from urllib import parse
 
 
 def download(url):
-    #获取短连接码
-    sub = re.findall('https://v.douyin.com/\w{8}', url)[0]
-    #通过短连接获取长链接
-    redirectUrl = requests.get(sub, allow_redirects=True).url
     headers = {
-        'User-Agent':'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36'
+        'User-Agent':'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Mobile Safari/537.36'
     }
     
-    vid=re.findall('https://www.douyin.com/video/(\w+)\?previous_page=app_code_link',redirectUrl)[0]
-    redirectUrl=f'https://m.douyin.com/share/video/{vid}'
-    #print(redirectUrl)
-    resp = requests.get(url=redirectUrl, headers=headers)
-     
-    # 正则抓视频信息
-    info = re.findall('<script id="RENDER_DATA" type="application/json">(.*?)</script', resp.text)[0]
-    #print(info)
-     
-    # url解码
-    html_data = urllib.parse.unquote(info)
-    #with open('b.txt', 'w',encoding='utf-8') as file:
-    #    file.write(html_data)
-    html_data = json.loads(html_data)
-    video_url = html_data['app']['videoInfoRes']['item_list'][0]['video']['play_addr']['url_list'][0]
-    video_url = video_url.replace("playwm","play")
-    #print(video_url)
+    #获取短连接码
+    sub = re.findall('https://v.kuaishou.com/\w{6}', url)[0]
+    #通过短连接获取长链接
+    response = requests.get(sub, headers=headers)
+    
+    with open('b.txt', 'w',encoding='utf-8') as file:
+        file.write(response.text)
+    #url = re.findall('src="(.*?)"', response.text)[0]
+    #print(url);
+    
+    #redirectUrl = response.url;
+    """
+    with open('b.txt', 'w',encoding='utf-8') as file:
+        file.write(response.text)
+    #response = requests.get(url=redirectUrl, headers=headers)
+    """
+    
+    """
+    res = requests.get(url)
+    total_size = round(int(res.headers["Content-Length"])/1024/1024)
+    with open('vid.mp4', 'wb') as f:
+        for chunk in tqdm(iterable=res.iter_content(1024*1024), total=total_size, unit='KB'):
+            f.write(chunk)
+    """
+    video_url = ''
     return video_url
