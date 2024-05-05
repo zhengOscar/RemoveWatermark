@@ -33,8 +33,22 @@ def download(url):
     video_url = video_url.replace("playwm","play")
     
     resp.close();
+    
+    #获取实际播放地址
     resp = requests.get(video_url, allow_redirects=False)
     if resp.status_code==301 or resp.status_code==302 :
         video_url = resp.headers['Location']
+    
+    #统一视频域名
+    pattern = r"^https://([^.]+)\.douyinvod\.com"
+    match = re.match(pattern, video_url)
+    domain=''
+    if match:
+        domain=match.group(1)  # 输出: xxx
+    else:
+        print("No match found")
+    
+    video_url=video_url.replace(f'https://{domain}.douyinvod.com/','https://v95-sz-cold.douyinvod.com/')
+    
     #print(video_url)
     return video_url
