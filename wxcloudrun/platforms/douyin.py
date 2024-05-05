@@ -32,6 +32,7 @@ def download(url):
     video_url = html_data['app']['videoInfoRes']['item_list'][0]['video']['play_addr']['url_list'][0]
     video_url = video_url.replace("playwm","play")
     
+    resp.close();
     video_url = requests.get(video_url, allow_redirects=True).url
     #print(video_url)
     return video_url
