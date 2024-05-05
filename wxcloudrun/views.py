@@ -5,7 +5,7 @@ from wxcloudrun.dao import delete_counterbyid, query_counterbyid, insert_counter
 from wxcloudrun.model import Counters
 from wxcloudrun.response import make_succ_empty_response, make_succ_response, make_err_response
 
-from wxcloudrun.platforms import douyin
+import constant
 
 @app.route('/')
 def index():
@@ -77,5 +77,20 @@ def remove_watermark():
         return make_err_response('缺少url参数')
 
     url = params['url']
-    res = douyin.downLoad(url);
-    return make_succ_response(res)
+    video_url=''
+    platform=constant.check_platform(url);
+    if platform!=None :
+        func = applyFunc("download",platform);
+    
+    if(None != func):
+        video_url=func(url);
+    
+    return make_succ_response(video_url)
+
+
+
+def applyFunc(functionName, channel):
+    obj_module = __import__("wxcloudrun.platforms."+channel,fromlist=True)
+    if hasattr(obj_module, functionName):
+        return getattr(obj_module, functionName)
+    return None

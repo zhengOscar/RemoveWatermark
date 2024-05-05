@@ -31,7 +31,5 @@ def download(url):
     html_data = json.loads(html_data)
     video_url = html_data['app']['videoInfoRes']['item_list'][0]['video']['play_addr']['url_list'][0]
     video_url = video_url.replace("playwm","play")
-    
-    video_url = requests.get(video_url, allow_redirects=True).url
     #print(video_url)
     return video_url
