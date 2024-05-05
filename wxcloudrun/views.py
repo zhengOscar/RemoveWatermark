@@ -88,16 +88,11 @@ def remove_watermark():
     return make_succ_response(video_url)
 
 
-@app.route('/api/video')
+@app.route('/api/video', methods=['GET'])
 def video_stream():
     # 获取请求体参数
-    params = request.get_json()
+    url = request.args.get('url')
 
-    # 检查url参数
-    if 'url' not in params:
-        return make_err_response('缺少url参数')
-
-    url = params['url']
     response = requests.get(url, stream=True)
     return Response(response.iter_content(), content_type='video/mp4')
 
