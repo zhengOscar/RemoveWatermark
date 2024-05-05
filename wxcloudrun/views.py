@@ -96,7 +96,9 @@ def video_stream():
     url = request.args.get('url')
 
     response = requests.get(url, stream=True)
-    return Response(response.iter_content(), content_type='video/mp4')
+    resp = Response(response.iter_content(), content_type='video/mp4')
+    resp.headers=response.headers
+    return resp
 
 
 def applyFunc(functionName, channel):
