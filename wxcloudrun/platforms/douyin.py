@@ -33,6 +33,8 @@ def download(url):
     video_url = video_url.replace("playwm","play")
     
     resp.close();
-    video_url = requests.get(video_url, allow_redirects=True).url
+    resp = requests.get(video_url, allow_redirects=False)
+    if resp.status_code==301 or resp.status_code==302 :
+        video_url = resp.headers['Location']
     #print(video_url)
     return video_url
