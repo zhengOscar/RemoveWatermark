@@ -1,5 +1,4 @@
-#coding=utf-8 
-import util
+#coding=utf-8
 import requests
 import re
 import json
@@ -17,10 +16,10 @@ def download(url):
     if response.status_code==301 or response.status_code==302 :
         videoUrl = response.headers['Location']
     
-    print(videoUrl)
+    #print(videoUrl)
     photoId=re.findall(r"https://v.m.chenzhongtech.com/fw/photo/(.*)\?.*",videoUrl)[0]
     url = 'https://www.kuaishou.com/graphql'
-    print(photoId)
+    #print(photoId)
 
     headers = {
         "User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36',  # 模拟浏览器访问
