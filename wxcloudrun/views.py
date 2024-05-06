@@ -86,6 +86,8 @@ def remove_watermark():
     
     if(None != func):
         video_url=func(url);
+    else:
+        return make_err_response('暂不支持该平台')
     
     return make_succ_response(video_url)
 
