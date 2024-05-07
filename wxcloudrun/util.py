@@ -26,7 +26,7 @@ def get_middle_string(data, start, end):
     
 def get_redirected_url(sub,headers=None, allow_redirects=True):
     if(headers==None):
-        response = requests.get(sub, allow_redirects)
+        response = requests.get(sub, allow_redirects=allow_redirects)
     else:
         response = requests.get(sub,headers=headers, allow_redirects=allow_redirects)
     url = response.url

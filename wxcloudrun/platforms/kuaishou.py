@@ -20,7 +20,7 @@ def download(url):
     #print(photoId)
 
     headers = {
-        "User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36',  # 模拟浏览器访问
+        "User-Agent": util.window_user_agent,  # 模拟浏览器访问
         "content-type": "application/json",  # 请求的参数类型为json数据
         "Cookie": "did=web_77f2054db30b4a4ca2a34875d7b12060; didv=1714906573000; kpf=PC_WEB; clientid=3; kpn=KUAISHOU_VISION",
         }
