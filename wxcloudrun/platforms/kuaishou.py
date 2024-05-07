@@ -3,21 +3,19 @@ import requests
 import re
 import json
 
+from wxcloudrun import util
+
 def download(url):
     headers = {
-        'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36'
+        'User-Agent':util.window_user_agent
     }
     
     #获取短连接码
     sub = re.findall('https://v.kuaishou.com/\w{6}', url)[0]
     #通过短连接获取长链接
-    response = requests.get(sub, headers=headers,allow_redirects=False)
-    videoUrl=''
-    if response.status_code==301 or response.status_code==302 :
-        videoUrl = response.headers['Location']
-    
-    #print(videoUrl)
-    photoId=re.findall(r"https://v.m.chenzhongtech.com/fw/photo/(.*)\?.*",videoUrl)[0]
+    redirect_url = util.get_redirected_url(sub, headers=headers,allow_redirects=False)
+    #print(redirect_url)
+    photoId=re.findall(r"https://v.m.chenzhongtech.com/fw/photo/(.*)\?.*",redirect_url)[0]
     url = 'https://www.kuaishou.com/graphql'
     #print(photoId)
 
@@ -46,9 +44,7 @@ def download(url):
 
 
     response = requests.post(url, headers=headers, data=data)
-    
-    #with open('b.txt', 'w',encoding='utf-8') as file:
-    #   file.write(response.text)
+    #util.log_to_file('b.txt', response.text)
 
     res = response.json()
     video_url = res['data']['visionVideoDetail']['photo']['photoUrl']

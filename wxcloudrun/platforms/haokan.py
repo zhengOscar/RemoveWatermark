@@ -3,9 +3,11 @@ import requests
 import re
 import json
 
+from wxcloudrun import util
+
 def download(url):
     headers = {
-        'User-Agent':'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36'
+        'User-Agent':util.android_user_agent
     }
     
     response = requests.get(url, headers=headers)
@@ -15,7 +17,7 @@ def download(url):
     for item in dic:
         if( item['key']=='1080p'):
             video_url=item['url']
-    #with open('b.txt', 'w',encoding='utf-8') as file:
-    #   file.write(response.text)
+    
+    #util.log_to_file('b.txt', response.text)
 
     return video_url
