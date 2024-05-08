@@ -81,6 +81,7 @@ def remove_watermark():
     url = params['url']
     video_url=''
     platform=constant.check_platform(url);
+    func=None
     if platform!=None :
         func = applyFunc("download",platform);
     
