@@ -12,19 +12,18 @@ def download(url):
         'User-Agent':util.android_user_agent
     }
     #获取短连接码
-    sub = re.findall('https://h5.pipix.com/s/\w{8}', url)[0]
+    sub = re.findall('https://video.weishi.qq.com/\w{8}', url)[0]
     #通过短连接获取长链接
     redirect_url = util.get_redirected_url(sub,headers=headers, allow_redirects=False)
     #print(redirect_url)
     
-    vid=util.get_mid_string(redirect_url, 'https://h5.pipix.com/item/', '?app_id')
-    play_url=f'https://h5.pipix.com/bds/webapi/item/detail/?item_id={vid}&source=share'
+    
+    vid= redirect_url.split("&id=")[1][:17];
+    play_url=f'https://h5.weishi.qq.com/webapp/json/weishi/WSH5GetPlayPage?t=0.7532600494918984&g_tk=&feedid={vid}&recommendtype=0&datalvl=&qua=&uin=&format=json&inCharset=utf-8&outCharset=utf-8'
     #print(play_url)
 
     response = requests.get(play_url)
-    #util.log_to_file('b.txt', response.text)
+    util.log_to_file('b.txt', response.text)
     res = response.json()
-    #print(res['data']['item']['video']['orgin_video_download']['url_list'][0]['url'])
-    video_url=res['data']['item']['video']['video_download']['url_list'][0]['url']
-
+    video_url=res['data']['feeds'][0]['video_url']
     return video_url
