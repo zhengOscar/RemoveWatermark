@@ -13,17 +13,21 @@ def download(url):
     #获取短连接码
     sub = re.findall('https://v.kuaishou.com/\w{6}', url)[0]
     #通过短连接获取长链接
-    redirect_url = util.get_redirected_url(sub, headers=headers,allow_redirects=False)
+    redirect_url,cookies = util.get_redirected_url(sub, headers=headers,allow_redirects=False)
     #print(redirect_url)
     photoId=re.findall(r"https://v.m.chenzhongtech.com/fw/photo/(.*)\?.*",redirect_url)[0]
     url = 'https://www.kuaishou.com/graphql'
     #print(photoId)
 
+    did  = 'web_e3a8b01b0cc50c7c58ca9dbb53c0fcde';#cookies.get('did');
+    didv = 1718933870000;#cookies.get('didv')
     headers = {
         "User-Agent": util.window_user_agent,  # 模拟浏览器访问
         "content-type": "application/json",  # 请求的参数类型为json数据
-        "Cookie": "did=web_77f2054db30b4a4ca2a34875d7b12060; didv=1714906573000; kpf=PC_WEB; clientid=3; kpn=KUAISHOU_VISION",
+        "Cookie": "did=%s; didv=%s; kpf=PC_WEB; clientid=3; kpn=KUAISHOU_VISION" %(did, didv),
         }
+    print(headers)
+    #print(cookies)
     data =json.dumps({"operationName": "visionVideoDetail",
             "variables": {"photoId": "%s"%(photoId), "page": "detail"},
             "query": "query visionVideoDetail($photoId: String, $type: String, $page: String, $webPageArea: String) {\n  "
@@ -44,7 +48,7 @@ def download(url):
 
 
     response = requests.post(url, headers=headers, data=data)
-    #util.log_to_file('b.txt', response.text)
+    util.log_to_file('b.txt', response.text)
 
     res = response.json()
     video_url = res['data']['visionVideoDetail']['photo']['photoUrl']

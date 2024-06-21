@@ -9,12 +9,9 @@ def make_succ_empty_response():
 
 
 def make_succ_response(param):
-    if(isinstance(param, dict)):
-        param['code']=0
-    else:
-        param = {'code': 0, 'data': param}
-    data = json.dumps(param)
-    return Response(data, mimetype='application/json')
+    data = {'code': 0, 'data': param}   
+    result = json.dumps(data)
+    return Response(result, mimetype='application/json')
 
 
 def make_err_response(err_msg):

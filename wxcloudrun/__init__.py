@@ -4,7 +4,7 @@ import pymysql
 import config
 
 # 因MySQLDB不支持Python3，使用pymysql扩展库代替MySQLDB库
-pymysql.install_as_MySQLdb()
+#pymysql.install_as_MySQLdb()
 
 # 初始化web应用
 app = Flask(__name__, instance_relative_config=True)
@@ -15,7 +15,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://{}:{}@{}/flask_demo'.format(con
                                                                              config.db_address)
 
 # 初始化DB操作对象
-db = SQLAlchemy(app)
+#db = SQLAlchemy(app)
 
 # 加载控制器
 from wxcloudrun import views

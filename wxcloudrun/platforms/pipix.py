@@ -14,7 +14,7 @@ def download(url):
     #获取短连接码
     sub = re.findall('https://h5.pipix.com/s/\w{8}', url)[0]
     #通过短连接获取长链接
-    redirect_url = util.get_redirected_url(sub,headers=headers, allow_redirects=False)
+    redirect_url,cookies = util.get_redirected_url(sub,headers=headers, allow_redirects=False)
     #print(redirect_url)
     
     vid=util.get_mid_string(redirect_url, 'https://h5.pipix.com/item/', '?app_id')

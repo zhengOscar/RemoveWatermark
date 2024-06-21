@@ -1,8 +1,6 @@
 from datetime import datetime
 from flask import render_template, request
 from run import app
-from wxcloudrun.dao import delete_counterbyid, query_counterbyid, insert_counter, update_counterbyid
-from wxcloudrun.model import Counters
 from wxcloudrun.response import make_succ_empty_response, make_succ_response, make_err_response
 
 from wxcloudrun import constant
@@ -60,6 +58,17 @@ def get_adv():
         "reward_adv_id":"100",
     }
     return make_succ_response(adv)
+    
+@app.route("/api/login", methods=['POST'])
+def login():
+    # 获取请求体参数
+    params = request.get_json()
+
+    # 检查url参数
+    if 'nikename' not in params:
+        return make_err_response('缺少nikename参数')
+    return make_succ_response("")
+    
 
 def applyFunc(functionName, channel):
     obj_module = __import__("wxcloudrun.platforms."+channel,fromlist=True)
