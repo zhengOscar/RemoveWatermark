@@ -53,4 +53,5 @@ def download(url):
     res = response.json()
     video_url = res['data']['visionVideoDetail']['photo']['photoUrl']
 
-    return video_url
+    download_url = video_url;
+    return video_url,download_url

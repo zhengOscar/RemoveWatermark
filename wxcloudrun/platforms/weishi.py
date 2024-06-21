@@ -29,4 +29,6 @@ def download(url):
     #util.log_to_file('b.txt', response.text)
     res = response.json()
     video_url=res['data']['feeds'][0]['video_url']
-    return video_url
+
+    download_url = video_url;
+    return video_url,download_url

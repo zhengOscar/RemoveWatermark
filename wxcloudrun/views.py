@@ -32,11 +32,15 @@ def remove_watermark():
         func = applyFunc("download",platform);
     
     if(None != func):
-        video_url=func(url);
+        video_url,download_url=func(url);
     else:
         return make_err_response('暂不支持该平台')
     
-    return make_succ_response(video_url)
+    data = {
+        'video_url':video_url,
+        'download_url':download_url
+    }
+    return make_succ_response(data)
 
 
 @app.route('/api/video', methods=['GET'])

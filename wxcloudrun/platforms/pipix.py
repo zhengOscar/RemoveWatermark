@@ -27,4 +27,5 @@ def download(url):
     #print(res['data']['item']['video']['orgin_video_download']['url_list'][0]['url'])
     video_url=res['data']['item']['video']['video_download']['url_list'][0]['url']
 
-    return video_url
+    download_url = video_url;
+    return video_url,download_url

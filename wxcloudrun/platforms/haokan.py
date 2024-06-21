@@ -19,5 +19,5 @@ def download(url):
             video_url=item['url']
     
     #util.log_to_file('b.txt', response.text)
-
-    return video_url
+    download_url = video_url;
+    return video_url,download_url

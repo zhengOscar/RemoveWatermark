@@ -6,6 +6,7 @@ import urllib
 from urllib import parse
 
 from wxcloudrun import util
+from wxcloudrun import url_util
 
 def download(url):
     headers = {
@@ -28,7 +29,7 @@ def download(url):
      
     # url解码
     html_data = urllib.parse.unquote(info)    
-    #util.log_to_file('b.txt', html_data)
+    util.log_to_file('b.txt', html_data)
 
     html_data = json.loads(html_data)
     play_url = html_data['app']['videoInfoRes']['item_list'][0]['video']['play_addr']['url_list'][0]
@@ -39,4 +40,5 @@ def download(url):
     #获取实际播放地址
     video_url,cookies = util.get_redirected_url(play_url, allow_redirects=False)
     
-    return video_url
+    download_url = url_util.get_download_url(video_url);
+    return video_url,download_url
