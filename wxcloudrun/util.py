@@ -1,7 +1,7 @@
 #coding=utf-8
 
 import requests
-
+import importlib
 
 android_user_agent='Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36'
 window_user_agent ='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'
@@ -37,3 +37,9 @@ def get_redirected_url(sub,headers=None, allow_redirects=True):
 def log_to_file(file, data):
     with open(file, 'w',encoding='utf-8') as file:
         file.write(data)
+        
+def import_module(attr_name, module):
+    obj_module = importlib.import_module(module)
+    if hasattr(obj_module, attr_name):
+        return getattr(obj_module, attr_name)
+    return None

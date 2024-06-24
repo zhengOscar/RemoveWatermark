@@ -4,6 +4,8 @@ from run import app
 from wxcloudrun.response import make_succ_empty_response, make_succ_response, make_err_response
 
 from wxcloudrun import constant
+from wxcloudrun import util
+
 from flask import Response
 import requests
 
@@ -75,7 +77,4 @@ def login():
     
 
 def applyFunc(functionName, channel):
-    obj_module = __import__("wxcloudrun.platforms."+channel,fromlist=True)
-    if hasattr(obj_module, functionName):
-        return getattr(obj_module, functionName)
-    return None
+    return util.import_module(functionName, "wxcloudrun.platforms."+channel);

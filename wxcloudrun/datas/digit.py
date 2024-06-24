@@ -1,0 +1,47 @@
+#coding=utf-8
+data = [
+	{
+		'zh':u'0',
+		'en':'one'
+	},
+	{
+		'zh':u'1',
+		'en':'two'
+	},
+	{
+		'zh':u'2',
+		'en':'three'
+	},
+	{
+		'zh':u'3',
+		'en':'circle'
+	},
+	{
+		'zh':u'4',
+		'en':'four'
+	},
+	{
+		'zh':u'5',
+		'en':'five'
+	},
+	{
+		'zh':u'6',
+		'en':'six'
+	},
+	{
+		'zh':u'7',
+		'en':'seven'
+	},
+	{
+		'zh':u'8',
+		'en':'eight'
+	},
+	{
+		'zh':u'9',
+		'en':'nine'
+	},
+	{
+		'zh':u'10',
+		'en':'ten'
+	},
+]
