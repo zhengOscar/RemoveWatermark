@@ -1,43 +1,43 @@
 #coding=utf-8
 data = [
-	{
-		'zh':u'¹«½»³µ',
-		'en':'bus'
-	},
-	{
-		'zh':u'µÄÊ¿',
-		'en':'taxi'
-	},
-	{
-		'zh':u'×ÔĞĞ³µ',
-		'en':'bike'
-	},
-	{
-		'zh':u'Ä¦ÍĞ³µ',
-		'en':'motorcycle'
-	},
-	{
-		'zh':u'¾¯³µ',
-		'en':'police car'
-	},
-	{
-		'zh':u'Ïû·À³µ',
-		'en':'fire engine'
-	},
-	{
-		'zh':u'¾È»¤³µ',
-		'en':'ambulance'
-	},
-	{
-		'zh':u'»ğ³µ',
-		'en':'train'
-	},
-	{
-		'zh':u'·É»ú',
-		'en':'plane'
-	},
-	{
-		'zh':u'ÂÖ´¬',
-		'en':'ship'
-	},
+    {
+        'zh':u'å…¬äº¤è½¦',
+        'en':'bus'
+    },
+    {
+        'zh':u'çš„å£«',
+        'en':'taxi'
+    },
+    {
+        'zh':u'è‡ªè¡Œè½¦',
+        'en':'bike'
+    },
+    {
+        'zh':u'æ‘©æ‰˜è½¦',
+        'en':'motorcycle'
+    },
+    {
+        'zh':u'è­¦è½¦',
+        'en':'police car'
+    },
+    {
+        'zh':u'æ¶ˆé˜²è½¦',
+        'en':'fire engine'
+    },
+    {
+        'zh':u'æ•‘æŠ¤è½¦',
+        'en':'ambulance'
+    },
+    {
+        'zh':u'ç«è½¦',
+        'en':'train'
+    },
+    {
+        'zh':u'é£æœº',
+        'en':'plane'
+    },
+    {
+        'zh':u'è½®èˆ¹',
+        'en':'ship'
+    },
 ]

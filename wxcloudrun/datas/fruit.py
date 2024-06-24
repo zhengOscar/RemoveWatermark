@@ -1,5 +1,4 @@
 #coding=utf-8
-
 data = [
     {
         'zh':u'苹果',
@@ -64,5 +63,5 @@ data = [
     {
         'zh':u'蓝莓',
         'en':'blueberry'
-    }
+    },
 ]
