@@ -2,57 +2,57 @@
 data = [
     {
         'zh':u'红色',
-        'en':'red'
+        'en':'red',
         'color':'#FF0000'
     },
     {
         'zh':u'黄色',
-        'en':'yellow'
+        'en':'yellow',
         'color':'#FFFF00'
     },
     {
         'zh':u'蓝色',
-        'en':'blue'
+        'en':'blue',
         'color':'#0000FF'
     },
     {
         'zh':u'绿色',
-        'en':'green'
+        'en':'green',
         'color':'#00FF00'
     },
     {
         'zh':u'橙色',
-        'en':'orange'
+        'en':'orange',
         'color':'#FFA500'
     },
     {
         'zh':u'紫色',
-        'en':'purple'
+        'en':'purple',
         'color':'#FF00FF'
     },
     {
         'zh':u'粉色',
-        'en':'pink'
+        'en':'pink',
         'color':'#FFC0CB'
     },
     {
         'zh':u'黑色',
-        'en':'black'
+        'en':'black',
         'color':'#000000'
     },
     {
         'zh':u'白色',
-        'en':'white'
+        'en':'white',
         'color':'#FFFFFF'
     },
     {
         'zh':u'灰色',
-        'en':'grey'
+        'en':'grey',
         'color':'#595959'
     },
     {
         'zh':u'棕色',
-        'en':'brown'
+        'en':'brown',
         'color':'#A67D3D'
     },
 ]

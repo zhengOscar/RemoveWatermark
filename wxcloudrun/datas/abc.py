@@ -2,106 +2,106 @@
 data = [
     {
         'zh':u'A',
-        'en':'a'
+        'en':'a',
     },
     {
         'zh':u'B',
-        'en':'b'
+        'en':'b',
     },
     {
         'zh':u'C',
-        'en':'c'
+        'en':'c',
     },
     {
         'zh':u'D',
-        'en':'d'
+        'en':'d',
     },
     {
         'zh':u'E',
-        'en':'e'
+        'en':'e',
     },
     {
         'zh':u'F',
-        'en':'f'
+        'en':'f',
     },
     {
         'zh':u'G',
-        'en':'g'
+        'en':'g',
     },
     {
         'zh':u'H',
-        'en':'h'
+        'en':'h',
     },
     {
         'zh':u'I',
-        'en':'i'
+        'en':'i',
     },
     {
         'zh':u'J',
-        'en':'j'
+        'en':'j',
     },
     {
         'zh':u'K',
-        'en':'k'
+        'en':'k',
     },
     {
         'zh':u'L',
-        'en':'l'
+        'en':'l',
     },
     {
         'zh':u'M',
-        'en':'m'
+        'en':'m',
     },
     {
         'zh':u'N',
-        'en':'n'
+        'en':'n',
     },
     {
         'zh':u'O',
-        'en':'o'
+        'en':'o',
     },
     {
         'zh':u'P',
-        'en':'p'
+        'en':'p',
     },
     {
         'zh':u'Q',
-        'en':'q'
+        'en':'q',
     },
     {
         'zh':u'R',
-        'en':'r'
+        'en':'r',
     },
     {
         'zh':u'S',
-        'en':'s'
+        'en':'s',
     },
     {
         'zh':u'T',
-        'en':'t'
+        'en':'t',
     },
     {
         'zh':u'U',
-        'en':'u'
+        'en':'u',
     },
     {
         'zh':u'V',
-        'en':'v'
+        'en':'v',
     },
     {
         'zh':u'W',
-        'en':'w'
+        'en':'w',
     },
     {
         'zh':u'X',
-        'en':'x'
+        'en':'x',
     },
     {
         'zh':u'Y',
-        'en':'y'
+        'en':'y',
     },
     {
         'zh':u'Z',
-        'en':'z'
+        'en':'z',
     },
 ]

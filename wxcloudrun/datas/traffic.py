@@ -2,42 +2,42 @@
 data = [
     {
         'zh':u'公交车',
-        'en':'bus'
+        'en':'bus',
     },
     {
         'zh':u'的士',
-        'en':'taxi'
+        'en':'taxi',
     },
     {
         'zh':u'自行车',
-        'en':'bike'
+        'en':'bike',
     },
     {
         'zh':u'摩托车',
-        'en':'motorcycle'
+        'en':'motorcycle',
     },
     {
         'zh':u'警车',
-        'en':'police car'
+        'en':'police car',
     },
     {
         'zh':u'消防车',
-        'en':'fire engine'
+        'en':'fire engine',
     },
     {
         'zh':u'救护车',
-        'en':'ambulance'
+        'en':'ambulance',
     },
     {
         'zh':u'火车',
-        'en':'train'
+        'en':'train',
     },
     {
         'zh':u'飞机',
-        'en':'plane'
+        'en':'plane',
     },
     {
         'zh':u'轮船',
-        'en':'ship'
+        'en':'ship',
     },
 ]

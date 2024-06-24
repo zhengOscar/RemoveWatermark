@@ -2,46 +2,46 @@
 data = [
     {
         'zh':u'0',
-        'en':'one'
+        'en':'one',
     },
     {
         'zh':u'1',
-        'en':'two'
+        'en':'two',
     },
     {
         'zh':u'2',
-        'en':'three'
+        'en':'three',
     },
     {
         'zh':u'3',
-        'en':'circle'
+        'en':'circle',
     },
     {
         'zh':u'4',
-        'en':'four'
+        'en':'four',
     },
     {
         'zh':u'5',
-        'en':'five'
+        'en':'five',
     },
     {
         'zh':u'6',
-        'en':'six'
+        'en':'six',
     },
     {
         'zh':u'7',
-        'en':'seven'
+        'en':'seven',
     },
     {
         'zh':u'8',
-        'en':'eight'
+        'en':'eight',
     },
     {
         'zh':u'9',
-        'en':'nine'
+        'en':'nine',
     },
     {
         'zh':u'10',
-        'en':'ten'
+        'en':'ten',
     },
 ]

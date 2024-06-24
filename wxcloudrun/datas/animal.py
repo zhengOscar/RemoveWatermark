@@ -2,114 +2,114 @@
 data = [
     {
         'zh':u'老鼠',
-        'en':'rat'
+        'en':'rat',
     },
     {
         'zh':u'牛',
-        'en':'cattle'
+        'en':'cattle',
     },
     {
         'zh':u'老虎',
-        'en':'tiger'
+        'en':'tiger',
     },
     {
         'zh':u'兔',
-        'en':'rabbit'
+        'en':'rabbit',
     },
     {
         'zh':u'龙',
-        'en':'dragon'
+        'en':'dragon',
     },
     {
         'zh':u'蛇',
-        'en':'snake'
+        'en':'snake',
     },
     {
         'zh':u'马',
-        'en':'horse'
+        'en':'horse',
     },
     {
         'zh':u'羊',
-        'en':'sheep'
+        'en':'sheep',
     },
     {
         'zh':u'猴子',
-        'en':'monkey'
+        'en':'monkey',
     },
     {
         'zh':u'鸡',
-        'en':'chicken'
+        'en':'chicken',
     },
     {
         'zh':u'狗',
-        'en':'dog'
+        'en':'dog',
     },
     {
         'zh':u'猪',
-        'en':'pig'
+        'en':'pig',
     },
     {
         'zh':u'猫',
-        'en':'cat'
+        'en':'cat',
     },
     {
         'zh':u'狮子',
-        'en':'lion'
+        'en':'lion',
     },
     {
         'zh':u'猎豹',
-        'en':'cheetah'
+        'en':'cheetah',
     },
     {
         'zh':u'狼',
-        'en':'wolf'
+        'en':'wolf',
     },
     {
         'zh':u'大象',
-        'en':'elephant'
+        'en':'elephant',
     },
     {
         'zh':u'长颈鹿',
-        'en':'giraffe'
+        'en':'giraffe',
     },
     {
         'zh':u'燕子',
-        'en':'swallow'
+        'en':'swallow',
     },
     {
         'zh':u'企鹅',
-        'en':'penguin'
+        'en':'penguin',
     },
     {
         'zh':u'熊',
-        'en':'bear'
+        'en':'bear',
     },
     {
         'zh':u'熊猫',
-        'en':'panda'
+        'en':'panda',
     },
     {
         'zh':u'鳄鱼',
-        'en':'crocodile'
+        'en':'crocodile',
     },
     {
         'zh':u'海豚',
-        'en':'dolphin'
+        'en':'dolphin',
     },
     {
         'zh':u'鲸鱼',
-        'en':'cetacea'
+        'en':'cetacea',
     },
     {
         'zh':u'鲨鱼',
-        'en':'shark'
+        'en':'shark',
     },
     {
         'zh':u'虾',
-        'en':'shrimp'
+        'en':'shrimp',
     },
     {
         'zh':u'螃蟹',
-        'en':'crab'
+        'en':'crab',
     },
 ]

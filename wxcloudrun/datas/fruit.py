@@ -2,66 +2,66 @@
 data = [
     {
         'zh':u'苹果',
-        'en':'apple'
+        'en':'apple',
     },
     {
         'zh':u'香蕉',
-        'en':'banana'
+        'en':'banana',
     },
     {
         'zh':u'梨',
-        'en':'pear'
+        'en':'pear',
     },
     {
         'zh':u'橙子',
-        'en':'orange'
+        'en':'orange',
     },
     {
         'zh':u'西瓜',
-        'en':'watermelon'
+        'en':'watermelon',
     },
     {
         'zh':u'草莓',
-        'en':'strawberry'
+        'en':'strawberry',
     },
     {
         'zh':u'葡萄',
-        'en':'grape'
+        'en':'grape',
     },
     {
         'zh':u'菠萝',
-        'en':'pineapple'
+        'en':'pineapple',
     },
     {
         'zh':u'樱桃',
-        'en':'cherry'
+        'en':'cherry',
     },
     {
         'zh':u'桃子',
-        'en':'peach'
+        'en':'peach',
     },
     {
         'zh':u'荔枝',
-        'en':'litchi'
+        'en':'litchi',
     },
     {
         'zh':u'杨桃',
-        'en':'carambola'
+        'en':'carambola',
     },
     {
         'zh':u'柠檬',
-        'en':'lemon'
+        'en':'lemon',
     },
     {
         'zh':u'木瓜',
-        'en':'pawpaw'
+        'en':'pawpaw',
     },
     {
         'zh':u'火龙果',
-        'en':'pitaya'
+        'en':'pitaya',
     },
     {
         'zh':u'蓝莓',
-        'en':'blueberry'
+        'en':'blueberry',
     },
 ]

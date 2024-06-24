@@ -2,74 +2,74 @@
 data = [
     {
         'zh':u'爸爸',
-        'en':'dad'
+        'en':'dad',
     },
     {
         'zh':u'妈妈',
-        'en':'mom'
+        'en':'mom',
     },
     {
         'zh':u'爷爷',
-        'en':'grandpa'
+        'en':'grandpa',
     },
     {
         'zh':u'奶奶',
-        'en':'grandma'
+        'en':'grandma',
     },
     {
         'zh':u'外公',
-        'en':'grandfather'
+        'en':'grandfather',
     },
     {
         'zh':u'外婆',
-        'en':'grandmother'
+        'en':'grandmother',
     },
     {
         'zh':u'哥哥',
-        'en':'elder brother'
+        'en':'elder brother',
     },
     {
         'zh':u'姐姐',
-        'en':'elder sister'
+        'en':'elder sister',
     },
     {
         'zh':u'弟弟',
-        'en':'younger brother'
+        'en':'younger brother',
     },
     {
         'zh':u'妹妹',
-        'en':'younger sister'
+        'en':'younger sister',
     },
     {
         'zh':u'叔叔',
-        'en':'uncle'
+        'en':'uncle',
     },
     {
         'zh':u'阿姨',
-        'en':'aunt'
+        'en':'aunt',
     },
     {
         'zh':u'老师',
-        'en':'teacher'
+        'en':'teacher',
     },
     {
         'zh':u'同学',
-        'en':'classmate'
+        'en':'classmate',
     },
     {
         'zh':u'朋友',
-        'en':'friend'
+        'en':'friend',
     },
     {
         'zh':u'医生',
-        'en':'doctor'
+        'en':'doctor',
     },
     {
         'zh':u'科学家',
-        'en':'scientist'
+        'en':'scientist',
     },
     {
         'zh':u'消防员',
-        'en':'fireman'
+        'en':'fireman',
     },
 ]

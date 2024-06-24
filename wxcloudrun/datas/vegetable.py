@@ -2,62 +2,62 @@
 data = [
     {
         'zh':u'胡萝卜',
-        'en':'carrot'
+        'en':'carrot',
     },
     {
         'zh':u'蘑菇',
-        'en':'mushroom'
+        'en':'mushroom',
     },
     {
         'zh':u'茄子',
-        'en':'eggplant'
+        'en':'eggplant',
     },
     {
         'zh':u'西红柿',
-        'en':'tomato'
+        'en':'tomato',
     },
     {
         'zh':u'南瓜',
-        'en':'pumpkin'
+        'en':'pumpkin',
     },
     {
         'zh':u'白菜',
-        'en':'cabbage'
+        'en':'cabbage',
     },
     {
         'zh':u'西兰花',
-        'en':'broccoli'
+        'en':'broccoli',
     },
     {
         'zh':u'蒜',
-        'en':'garlic'
+        'en':'garlic',
     },
     {
         'zh':u'洋葱',
-        'en':'onion'
+        'en':'onion',
     },
     {
         'zh':u'大葱',
-        'en':'scallion'
+        'en':'scallion',
     },
     {
         'zh':u'番薯',
-        'en':'sweet potato'
+        'en':'sweet potato',
     },
     {
         'zh':u'土豆',
-        'en':'potato'
+        'en':'potato',
     },
     {
         'zh':u'辣椒',
-        'en':'pepper'
+        'en':'pepper',
     },
     {
         'zh':u'香菜',
-        'en':'coriander'
+        'en':'coriander',
     },
     {
         'zh':u'豌豆',
-        'en':'pea'
+        'en':'pea',
     },
 ]

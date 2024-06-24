@@ -2,86 +2,86 @@
 data = [
     {
         'zh':u'被子',
-        'en':'quilt'
+        'en':'quilt',
     },
     {
         'zh':u'枕头',
-        'en':'pillow'
+        'en':'pillow',
     },
     {
         'zh':u'帽子',
-        'en':'hat'
+        'en':'hat',
     },
     {
         'zh':u'手套',
-        'en':'gloves'
+        'en':'gloves',
     },
     {
         'zh':u'毛巾',
-        'en':'towel'
+        'en':'towel',
     },
     {
         'zh':u'拖鞋',
-        'en':'slipper'
+        'en':'slipper',
     },
     {
         'zh':u'鞋',
-        'en':'shoes'
+        'en':'shoes',
     },
     {
         'zh':u'牙刷',
-        'en':'toothbrush'
+        'en':'toothbrush',
     },
     {
         'zh':u'牙膏',
-        'en':'toothpaste'
+        'en':'toothpaste',
     },
     {
         'zh':u'镜子',
-        'en':'mirror'
+        'en':'mirror',
     },
     {
         'zh':u'梳子',
-        'en':'comb'
+        'en':'comb',
     },
     {
         'zh':u'肥皂',
-        'en':'soap'
+        'en':'soap',
     },
     {
         'zh':u'杯子',
-        'en':'cup'
+        'en':'cup',
     },
     {
         'zh':u'碗',
-        'en':'bowl'
+        'en':'bowl',
     },
     {
         'zh':u'手机',
-        'en':'mobile phone'
+        'en':'mobile phone',
     },
     {
         'zh':u'电话',
-        'en':'telephone'
+        'en':'telephone',
     },
     {
         'zh':u'电脑',
-        'en':'computer'
+        'en':'computer',
     },
     {
         'zh':u'电视机',
-        'en':'television'
+        'en':'television',
     },
     {
         'zh':u'雨伞',
-        'en':'umbrella'
+        'en':'umbrella',
     },
     {
         'zh':u'足球',
-        'en':'footbal'
+        'en':'footbal',
     },
     {
         'zh':u'篮球',
-        'en':'basketball'
+        'en':'basketball',
     },
 ]
