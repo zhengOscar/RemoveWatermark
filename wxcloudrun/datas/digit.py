@@ -2,19 +2,19 @@
 data = [
     {
         'zh':u'0',
-        'en':'one',
+        'en':'zero',
     },
     {
         'zh':u'1',
-        'en':'two',
+        'en':'one',
     },
     {
         'zh':u'2',
-        'en':'three',
+        'en':'two',
     },
     {
         'zh':u'3',
-        'en':'circle',
+        'en':'three',
     },
     {
         'zh':u'4',
