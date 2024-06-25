@@ -29,32 +29,12 @@ data = [
         'en':'broccoli',
     },
     {
-        'zh':u'蒜',
-        'en':'garlic',
-    },
-    {
-        'zh':u'洋葱',
-        'en':'onion',
-    },
-    {
-        'zh':u'大葱',
-        'en':'scallion',
-    },
-    {
-        'zh':u'番薯',
-        'en':'sweet potato',
-    },
-    {
         'zh':u'土豆',
         'en':'potato',
     },
     {
         'zh':u'辣椒',
         'en':'pepper',
-    },
-    {
-        'zh':u'香菜',
-        'en':'coriander',
     },
     {
         'zh':u'豌豆',

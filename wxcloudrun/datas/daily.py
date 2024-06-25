@@ -1,10 +1,6 @@
 #coding=utf-8
 data = [
     {
-        'zh':u'被子',
-        'en':'quilt',
-    },
-    {
         'zh':u'枕头',
         'en':'pillow',
     },
@@ -19,10 +15,6 @@ data = [
     {
         'zh':u'毛巾',
         'en':'towel',
-    },
-    {
-        'zh':u'拖鞋',
-        'en':'slipper',
     },
     {
         'zh':u'鞋',
@@ -43,10 +35,6 @@ data = [
     {
         'zh':u'梳子',
         'en':'comb',
-    },
-    {
-        'zh':u'肥皂',
-        'en':'soap',
     },
     {
         'zh':u'杯子',
@@ -75,13 +63,5 @@ data = [
     {
         'zh':u'雨伞',
         'en':'umbrella',
-    },
-    {
-        'zh':u'足球',
-        'en':'football',
-    },
-    {
-        'zh':u'篮球',
-        'en':'basketball',
     },
 ]

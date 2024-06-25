@@ -17,14 +17,6 @@ data = [
         'en':'orange',
     },
     {
-        'zh':u'西瓜',
-        'en':'watermelon',
-    },
-    {
-        'zh':u'草莓',
-        'en':'strawberry',
-    },
-    {
         'zh':u'葡萄',
         'en':'grape',
     },
@@ -53,15 +45,7 @@ data = [
         'en':'lemon',
     },
     {
-        'zh':u'木瓜',
-        'en':'pawpaw',
-    },
-    {
         'zh':u'火龙果',
         'en':'pitaya',
-    },
-    {
-        'zh':u'蓝莓',
-        'en':'blueberry',
     },
 ]

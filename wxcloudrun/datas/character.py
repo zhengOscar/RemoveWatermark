@@ -40,36 +40,4 @@ data = [
         'zh':u'妹妹',
         'en':'younger sister',
     },
-    {
-        'zh':u'叔叔',
-        'en':'uncle',
-    },
-    {
-        'zh':u'阿姨',
-        'en':'aunt',
-    },
-    {
-        'zh':u'老师',
-        'en':'teacher',
-    },
-    {
-        'zh':u'同学',
-        'en':'classmate',
-    },
-    {
-        'zh':u'朋友',
-        'en':'friend',
-    },
-    {
-        'zh':u'医生',
-        'en':'doctor',
-    },
-    {
-        'zh':u'科学家',
-        'en':'scientist',
-    },
-    {
-        'zh':u'消防员',
-        'en':'fireman',
-    },
 ]
