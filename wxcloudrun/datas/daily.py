@@ -78,7 +78,7 @@ data = [
     },
     {
         'zh':u'足球',
-        'en':'footbal',
+        'en':'football',
     },
     {
         'zh':u'篮球',
