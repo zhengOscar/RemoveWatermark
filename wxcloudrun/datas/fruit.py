@@ -3,49 +3,61 @@ data = [
     {
         'zh':u'苹果',
         'en':'apple',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/1d6aff4814e28e89fdf480bc2c284abe.jpeg'
     },
     {
         'zh':u'香蕉',
         'en':'banana',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/774db9f7f1d623ffc5d2229be969e621.jpeg'
     },
     {
         'zh':u'梨',
         'en':'pear',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/64ce9e396127a20832e16f6737902b81.jpeg'
     },
     {
         'zh':u'橙子',
         'en':'orange',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/786db007e78a9abd4e0bce6b92cfe5e0.jpeg'
     },
     {
         'zh':u'葡萄',
         'en':'grape',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/d0a33479560ade2dae79b5cbdd20fbb4.jpeg'
     },
     {
         'zh':u'菠萝',
         'en':'pineapple',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/502023abc676d8e6d9c011208e2be6ff.jpeg'
     },
     {
         'zh':u'樱桃',
         'en':'cherry',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/007b0efdf37021b5f9c3a69ccb37e6f2.jpeg'
     },
     {
         'zh':u'桃子',
         'en':'peach',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/d47bb19ddddf688cc4d969f48bd2e535.jpeg'
     },
     {
         'zh':u'荔枝',
         'en':'litchi',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/de8ec33134506eee9781fe1cd12af4e6.jpeg'
     },
     {
         'zh':u'杨桃',
         'en':'carambola',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/7c5d931cf08c09f6a73412be419435d9.jpeg'
     },
     {
         'zh':u'柠檬',
         'en':'lemon',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/0e96edfa55d45400d1962080da855abc.jpeg'
     },
     {
         'zh':u'火龙果',
         'en':'pitaya',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/055d65a3c6bfbe8fea5dc181b5ee997c.jpeg'
     },
 ]

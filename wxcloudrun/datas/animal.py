@@ -3,53 +3,66 @@ data = [
     {
         'zh':u'老鼠',
         'en':'rat',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/19c9a88280cf5d4e5d11df2fe7cfa679.jpeg'
     },
     {
         'zh':u'牛',
         'en':'cattle',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/53e54a7b39c97bc2f99243c52685a2cc.jpeg'
     },
     {
         'zh':u'老虎',
         'en':'tiger',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/555c4aa03f7422b04579b55b07913b5e.jpeg'
     },
     {
         'zh':u'兔',
         'en':'rabbit',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/7bf1f346b0888e4777bc5c5fa7069b9a.jpeg'
     },
     {
         'zh':u'龙',
         'en':'dragon',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/48e4a3575e50ea997f4b492f68738125.jpeg'
     },
     {
         'zh':u'蛇',
         'en':'snake',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/3c20568b6e0c994feeb7469541106ced.jpeg'
     },
     {
         'zh':u'马',
         'en':'horse',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/d84b0882de892b137989829dd96ab594.jpeg'
     },
     {
         'zh':u'羊',
         'en':'sheep',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/920e468009f20996bc1294efbb59847f.jpeg'
     },
     {
         'zh':u'猴子',
         'en':'monkey',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/7a4b2b892718d7ce571403ed6c18e9c4.jpeg'
     },
     {
         'zh':u'鸡',
         'en':'chicken',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/541b43cd0a60cab6b4c7918586f85873.jpeg'
     },
     {
         'zh':u'狗',
         'en':'dog',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/17bc1e4159e54e2552c9602d1d4b31ec.jpeg'
     },
     {
         'zh':u'猪',
         'en':'pig',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/bedb90b447394c78ae316d2e81d7abad.jpeg'
     },
     {
         'zh':u'猫',
         'en':'cat',
+        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/c78d640eac93014a75304b5b5c4ea52e.jpeg'
     },
 ]
