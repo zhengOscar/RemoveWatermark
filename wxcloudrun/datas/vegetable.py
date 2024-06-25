@@ -3,51 +3,51 @@ data = [
     {
         'zh':u'胡萝卜',
         'en':'carrot',
-        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/8086469cf64b7bb64a6fdcf1663502ef.jpeg'
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/8086469cf64b7bb64a6fdcf1663502ef.jpeg'
     },
     {
         'zh':u'蘑菇',
         'en':'mushroom',
-        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/f6e2dc3afccb8b8af8b6f71c53ed16d2.jpeg'
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/f6e2dc3afccb8b8af8b6f71c53ed16d2.jpeg'
     },
     {
         'zh':u'茄子',
         'en':'eggplant',
-        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/d0d2ef4250e5879c5c61fddc6384f3c9.jpeg'
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/d0d2ef4250e5879c5c61fddc6384f3c9.jpeg'
     },
     {
         'zh':u'西红柿',
         'en':'tomato',
-        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/b1d46216ce82dac511b3e52fb36a3922.jpeg'
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/b1d46216ce82dac511b3e52fb36a3922.jpeg'
     },
     {
         'zh':u'南瓜',
         'en':'pumpkin',
-        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/80e1755aa8c9265ed6b93200e3523d25.jpeg'
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/80e1755aa8c9265ed6b93200e3523d25.jpeg'
     },
     {
         'zh':u'白菜',
         'en':'cabbage',
-        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/9682ad30c45bc8279ee9e03476ce6d15.jpeg'
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/9682ad30c45bc8279ee9e03476ce6d15.jpeg'
     },
     {
         'zh':u'西兰花',
         'en':'broccoli',
-        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/e7ed28d896bed7cde1b058f98c62b1ee.jpeg'
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/e7ed28d896bed7cde1b058f98c62b1ee.jpeg'
     },
     {
         'zh':u'土豆',
         'en':'potato',
-        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/7881333f8b5b50628ca467d0749b74c7.jpeg'
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/7881333f8b5b50628ca467d0749b74c7.jpeg'
     },
     {
         'zh':u'辣椒',
         'en':'pepper',
-        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/9862b4be9420eac37b4a9b87457c887e.jpeg'
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/9862b4be9420eac37b4a9b87457c887e.jpeg'
     },
     {
         'zh':u'豌豆',
         'en':'pea',
-        'url':'#https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/7758addb60ea808068c6e217c10adabd.jpeg'
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/7758addb60ea808068c6e217c10adabd.jpeg'
     },
 ]
