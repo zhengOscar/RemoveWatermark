@@ -3,6 +3,7 @@
 data = [
     {
         'name':u'基础知识',
+        'alias':'simple',
         'children':[
             {'name':u'字母','alias':'abc','icon':'abc','color':'#F1EBFE'},
             {'name':u'数字','alias':'digit','icon':'digit','color':'#E4F6FF'},
@@ -12,6 +13,7 @@ data = [
     },
     {
         'name':u'进阶知识',
+        'alias':'advance',
         'children':[
             {'name':u'水果','alias':'fruit','icon':'fruit','color':'#F1EBFE'},
             {'name':u'蔬菜','alias':'vegetable','icon':'vegetable','color':'#E4F6FF'},
