@@ -32,5 +32,15 @@ def learn_data():
         data=[]
     return make_succ_response(data)
     
+@app.route("/api/l_adv", methods=['POST'])
+def learn_adv():
+    data ={
+        'homeAdvId':'1',
+        'detailAdvId':'1',
+        'xdetailAdvId':'1',
+        'settingAdvId':'1',
+    }
+    return make_succ_response(data)
+    
 def load_data(name):
     return util.import_module('data', "wxcloudrun.datas."+name);
