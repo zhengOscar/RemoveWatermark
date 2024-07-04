@@ -43,3 +43,60 @@ def import_module(attr_name, module):
     if hasattr(obj_module, attr_name):
         return getattr(obj_module, attr_name)
     return None
+    
+    
+def find_node(data, node_path):
+    _, res = h(data, node_path,0)
+
+    if(_):
+        return _,res;
+    elif(is_dict(data)):
+        for k in data:
+            _,res = find_node(data[k], node_path)
+            if(_):
+                return _, res
+        return False,None
+    elif(is_array(data)):
+        for v in data:
+            _,res = find_node(v, node_path)
+            if(_):
+                return _, res
+        return False,None
+    else:
+        return False,None
+        
+def h(data, node_path, index):
+    node = node_path[index]
+    if is_dict(data) and is_str( node_path[index] ):
+        if( has_key(data, node) ):
+            if (len(node_path)==index+1) :
+                return True, data[node];
+            return h(data[node], node_path, index+1)
+        else :
+            return False, None
+    
+    if is_array(data) and is_number(node_path[index]):
+        if( len(data)>node ):
+            if (len(node_path)==index+1) :
+                return True, data[node]
+            return h(data[node], node_path, index+1)
+        else:
+            return False, None
+    
+    return False,None
+        
+def has_key(obj, key):
+    return key in obj;
+        
+def is_dict(obj):
+    return isinstance(obj, dict)
+    
+    
+def is_array(obj):
+    return isinstance(obj, list);
+    
+def is_number(obj):
+    return isinstance(obj, (int, float, complex))
+    
+def is_str(obj):
+    return isinstance(obj, str);

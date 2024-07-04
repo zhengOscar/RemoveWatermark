@@ -24,16 +24,21 @@ def download(url):
     response = requests.get(url=sub, headers=headers)
     #util.log_to_file('b.txt', response.text)
     # 正则抓视频信息
-    info = re.findall('id="RENDER_DATA" type="application/json">(.*?)</script', response.text)[0]
+    #info = re.findall('id="RENDER_DATA" type="application/json">(.*?)</script', response.text)[0]
     #print(info)
+    
+    info = re.findall('window._ROUTER_DATA = (.*?)</script>', response.text)[0];
+    print(info);
      
     # url解码
     html_data = urllib.parse.unquote(info)    
-    util.log_to_file('b.txt', html_data)
+    #util.log_to_file('b.txt', html_data)
 
     html_data = json.loads(html_data)
-    play_url = html_data['app']['videoInfoRes']['item_list'][0]['video']['play_addr']['url_list'][0]
-    play_url = play_url.replace("playwm","play")
+    #play_url = html_data['app']['videoInfoRes']['item_list'][0]['video']['play_addr']['url_list'][0]
+    _,datas = util.find_node(html_data, ['video','play_addr','url_list'])
+    play_url = datas[0]
+    play_url = play_url.replace("playwm","play").replace('aweme.snssdk.com','www.iesdouyin.com');
     
     response.close();
     
