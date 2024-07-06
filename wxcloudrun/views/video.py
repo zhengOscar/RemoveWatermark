@@ -58,9 +58,9 @@ def video_stream():
 @app.route("/api/adv", methods=['GET'])
 def get_adv():
     adv={
-        "index_adv_id":"",
-        "video_adv_id":"",
-        "my_adv_id":"",
+        "index_adv_id":"1",
+        "video_adv_id":"1",
+        "my_adv_id":"1",
         "reward_adv_id":"100",
     }
     return make_succ_response(adv)
