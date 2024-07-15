@@ -39,6 +39,7 @@ def learn_adv():
         'detailAdvId':'1',
         'xdetailAdvId':'1',
         'settingAdvId':'1',
+        'chooseAdvId':'1',
     }
     return make_succ_response(data)
     
