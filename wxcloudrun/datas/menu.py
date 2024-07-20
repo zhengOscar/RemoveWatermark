@@ -9,8 +9,8 @@ data = [
             {'name':u'数字','alias':'digit','icon':'digit','color':'#E4F6FF','show':'zh', 'total':38},
             {'name':u'颜色','alias':'color','icon':'color','color':'#E7FFEA','show':'color', 'total':11},
             {'name':u'形状','alias':'shape','icon':'shape','color':'#FEF3EB','show':'shape', 'total':7},
-            {'name':u'星期','alias':'week','icon':'week','color':'#F1EBFE','show':'zh',  'total':7},
-            {'name':u'月份','alias':'month','icon':'month','color':'#E4F6FF','show':'zh', 'total':12},
+            {'name':u'星期','alias':'week','icon':'week','color':'#F1EBFE','show':'xzh',  'total':7},
+            {'name':u'月份','alias':'month','icon':'month','color':'#E4F6FF','show':'xzh', 'total':12},
             {'name':u'四季','alias':'season','icon':'season','color':'#E7FFEA','show':'df', 'total':4},
         ]
     },
