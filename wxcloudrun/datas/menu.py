@@ -23,9 +23,9 @@ data = [
             {'name':u'人物','alias':'character','icon':'character','color':'#E7FFEA','show':'df', 'total':12},
             {'name':u'动物','alias':'animal','icon':'animal','color':'#FEF3EB','show':'df', 'total':34},
             {'name':u'日常用品','alias':'daily','icon':'daily','color':'#F1EBFE','show':'df', 'total':16},
-            #{'name':u'国家城市','alias':'country','icon':'country','color':'#E4F6FF','show':'df', 'total':0},
+            #{'name':u'国家城市','alias':'country','icon':'country','color':'#E4F6FF','show':'df', 'total':23},
             {'name':u'交通工具','alias':'traffic','icon':'traffic','color':'#E7FFEA','show':'df', 'total':11},
-            #{'name':u'太空','alias':'space','icon':'space','color':'#FEF3EB','show':'df', 'total':0},
+            #{'name':u'太空','alias':'space','icon':'space','color':'#FEF3EB','show':'df', 'total':16},
         ]
     }
 ]
