@@ -26,9 +26,9 @@ data = [
         'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/80e1755aa8c9265ed6b93200e3523d25.jpeg'
     },
     {
-        'zh':u'白菜',
+        'zh':u'卷心菜',
         'en':'cabbage',
-        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/9682ad30c45bc8279ee9e03476ce6d15.jpeg'
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/da58d00a87ce696157d915370704d52b.jpeg'
     },
     {
         'zh':u'西兰花',
@@ -49,5 +49,35 @@ data = [
         'zh':u'豌豆',
         'en':'pea',
         'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/7758addb60ea808068c6e217c10adabd.jpeg'
+    },
+    {
+        'zh':u'玉米',
+        'en':'corn',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/15c5da11cfce2cd3bbbe10231aa30108.jpeg'
+    },
+    {
+        'zh':u'黄瓜',
+        'en':'cucumber',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/53810619b1e8418816338dc2ce5c7217.jpeg'
+    },
+    {
+        'zh':u'生菜',
+        'en':'lettuce',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/a66ab57b67f580f097c22f485473a875.png'
+    },
+    {
+        'zh':u'菠菜',
+        'en':'spinach',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/be065fca02737dfb42cd7fbb5d9adc39.jpeg'
+    },
+    {
+        'zh':u'芹菜',
+        'en':'celery',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/ae2eb5cc7aaa88996996f92bbdf553ee.jpeg'
+    },
+    {
+        'zh':u'秋葵',
+        'en':'okra',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/aec17c17105463209dae77a90627f42e.jpeg'
     },
 ]

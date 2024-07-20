@@ -50,4 +50,14 @@ data = [
         'en':'younger sister',
         'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/7c1fdbe95f544a6e5af23d355bd7025f.jpeg'
     },
+    {
+        'zh':u'阿姨',
+        'en':'aunt',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/f11fde5a65a65fa723bf628063c31901.jpeg'
+    },
+    {
+        'zh':u'叔叔',
+        'en':'uncle',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/13699a4ffac9efd847f5ec9079533b53.jpeg'
+    },
 ]

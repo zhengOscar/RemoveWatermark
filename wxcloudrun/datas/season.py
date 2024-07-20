@@ -1,0 +1,23 @@
+#coding=utf-8
+data = [
+    {
+        'zh':u'春天',
+        'en':'spring',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/1e2e378adb56815b98d9dd5e31c59a8f.jpeg'
+    },
+    {
+        'zh':u'夏天',
+        'en':'summer',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/cbc3e0514d2b601566e772e4eb113b7d.jpeg'
+    },
+    {
+        'zh':u'秋天',
+        'en':'autumn',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/afd059103fb50948dee74e461b10eff1.jpeg'
+    },
+    {
+        'zh':u'冬天',
+        'en':'winter',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/0a6ea99e134bb112ac49efa13268af69.jpeg'
+    },
+]

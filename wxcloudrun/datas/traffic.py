@@ -50,4 +50,9 @@ data = [
         'en':'ship',
         'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/13dcb66bd58b789086670463ff17d76d.jpeg'
     },
+    {
+        'zh':u'火箭',
+        'en':'rocket',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/b90341ff34f138d02d5dc87bc1a3790c.jpeg'
+    },
 ]

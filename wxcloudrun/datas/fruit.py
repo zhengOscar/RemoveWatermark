@@ -60,4 +60,24 @@ data = [
         'en':'pitaya',
         'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/055d65a3c6bfbe8fea5dc181b5ee997c.jpeg'
     },
+    {
+        'zh':u'椰子',
+        'en':'coconut',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240625/055d65a3c6bfbe8fea5dc181b5ee997c.jpeg'
+    },
+    {
+        'zh':u'牛油果',
+        'en':'avocado',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/4fc32e549fc71dba6da9769cd47799ab.jpeg'
+    },
+    {
+        'zh':u'榴莲',
+        'en':'durian',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/4fc32e549fc71dba6da9769cd47799ab.jpeg'
+    },
+    {
+        'zh':u'草莓',
+        'en':'strawberry',
+        'url':'https://pic.rmb.bdstatic.com/bjh/3ed2415a6cd/240720/06e121bff3cf64d66dbafdf8678e60e1.jpeg'
+    },
 ]

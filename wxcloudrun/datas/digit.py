@@ -44,4 +44,112 @@ data = [
         'zh':u'10',
         'en':'ten',
     },
+    {
+        'zh':u'11',
+        'en':'eleven',
+    },
+    {
+        'zh':u'12',
+        'en':'twelve',
+    },
+    {
+        'zh':u'13',
+        'en':'thirteen',
+    },
+    {
+        'zh':u'14',
+        'en':'fourteen',
+    },
+    {
+        'zh':u'15',
+        'en':'fifteen',
+    },
+    {
+        'zh':u'16',
+        'en':'sixteen',
+    },
+    {
+        'zh':u'17',
+        'en':'seventeen',
+    },
+    {
+        'zh':u'18',
+        'en':'eightteen',
+    },
+    {
+        'zh':u'19',
+        'en':'nineteen',
+    },
+    {
+        'zh':u'20',
+        'en':'twenty',
+    },
+    {
+        'zh':u'21',
+        'en':'twenty one',
+    },
+    {
+        'zh':u'22',
+        'en':'twenty two',
+    },
+    {
+        'zh':u'23',
+        'en':'twenty three',
+    },
+    {
+        'zh':u'24',
+        'en':'twenty four',
+    },
+    {
+        'zh':u'25',
+        'en':'twenty five',
+    },
+    {
+        'zh':u'26',
+        'en':'twenty six',
+    },
+    {
+        'zh':u'27',
+        'en':'twenty seven',
+    },
+    {
+        'zh':u'28',
+        'en':'twenty eight',
+    },
+    {
+        'zh':u'29',
+        'en':'twenty nine',
+    },
+    {
+        'zh':u'30',
+        'en':'thirty',
+    },
+    {
+        'zh':u'40',
+        'en':'fourty',
+    },
+    {
+        'zh':u'50',
+        'en':'fifty',
+    },
+    {
+        'zh':u'60',
+        'en':'sixty',
+    },
+    {
+        'zh':u'70',
+        'en':'seventy',
+    },
+    {
+        'zh':u'80',
+        'en':'eighty',
+    },
+    {
+        'zh':u'90',
+        'en':'ninety',
+    },
+    {
+        'zh':u'100',
+        'en':'one hundred',
+    },
 ]

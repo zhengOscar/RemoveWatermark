@@ -46,7 +46,7 @@ def import_module(attr_name, module):
     
     
 def find_node(data, node_path):
-    _, res = h(data, node_path,0)
+    _, res = nested_node(data, node_path,0)
 
     if(_):
         return _,res;
@@ -65,13 +65,13 @@ def find_node(data, node_path):
     else:
         return False,None
         
-def h(data, node_path, index):
+def nested_node(data, node_path, index):
     node = node_path[index]
     if is_dict(data) and is_str( node_path[index] ):
         if( has_key(data, node) ):
             if (len(node_path)==index+1) :
                 return True, data[node];
-            return h(data[node], node_path, index+1)
+            return nested_node(data[node], node_path, index+1)
         else :
             return False, None
     
@@ -79,7 +79,7 @@ def h(data, node_path, index):
         if( len(data)>node ):
             if (len(node_path)==index+1) :
                 return True, data[node]
-            return h(data[node], node_path, index+1)
+            return nested_node(data[node], node_path, index+1)
         else:
             return False, None
     
