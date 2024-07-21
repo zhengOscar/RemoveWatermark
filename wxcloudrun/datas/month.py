@@ -45,7 +45,7 @@ data = [
         'en':'November',
     },
     {
-        'zh':u'十一月份',
+        'zh':u'十二月份',
         'en':'December',
     },
 ]
